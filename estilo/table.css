@@ -1,0 +1,29 @@
+table{
+    font-size: 1.5rem;
+    margin: 1rem 1rem 1rem 0rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+table tr th,td{
+    border: 1px solid #6e6e6e;
+    padding: 1rem;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+table thead th{
+    background-color: #0071c1;
+    color:#ffffff;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #a2d5fa42;
+}
+
+table tbody > tr:hover, tfoot tr:hover{
+    background-color: #80c9fdc2;
+
+}

@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  font-size: 1.5rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  position: relative;
+}
+
+#menu ul, li{
+  list-style-type: none;
+  list-style: none;
+}
+
+.menu a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.menu li.lista{
+  border: 1px rgb(63, 63, 63) solid;
+}
+
+.menu li{
+  margin-top: 0.1rem;
+  float: left;
+  padding: 0.2rem;
+  
+}
+.menu li{
+  position: relative;
+  float: left; 
+}
+
+.menu a{
+  display: block;
+}
+
+.menu li ul{
+  position: absolute;
+  display: none;
+  top: 25px;
+  left: 0;
+}
+
+.menu li:hover ul, .menu li.over ul{
+  display: block;
+}
+
+.menu li ul li{
+  display: block;
+  width: 10rem;
+  border: 1px rgb(63, 63, 63) solid;
+}

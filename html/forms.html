@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Fale conosco</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./estilo/reset-meyer.css">
+        <link rel="stylesheet" type="text/css" href="./estilo/estilo.css">
+        <script src="script/script.js"></script>
+    </head>
+    <body>
+
+        <header>
+            <h5 class="titulo">Contato</h5>
+            <div id="menu">
+                <a href="01-introducao.html">Introdução</a>
+                <a href="02-listas-e-links.html">Listas e Links</a>
+                <a href="03-formatacao-de-texto.html">Formatação de Texto</a>
+                <a href="04-tabelas.html">Tabelas</a>
+                <a href="05-layouts.html">Layouts</a>
+                <a href="forms.html">Formulários</a>
+                <a href="index.html">Homepage</a>
+                <a href="financas.html">Avançando no css...</a>
+                <a href="layout-fuido.html">Adicionando fluidez...</a>
+            </div>
+        </header>
+        
+        <div id="div-formulario">
+            <h1>Contate-nos</h1>
+            <form id="formulario" method="post">
+
+                <div class="bloco-form">
+                    <br>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" class="area-form" placeholder="Digite seu nome">
+                    
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email">
+                    
+                    <label for="mensagem">Mensagem</label><br>
+                    <textarea id="mensagem"placeholder="Digite aqui sua mensagem" rows="5"></textarea><br>
+                </div>
+                <div class="bloco-form">
+                    <p style="font-size: 1.5rem; font-weight: bold; padding-left: 0rem;"> Qual linguagem de programação você prefere?</p>
+
+                    <input type="radio" id="html" name="linguagem" value="html">
+                    <label for="html">HTML</label><br>
+                    <input type="radio" id="css" name="linguagem" value="css">
+                    <label for="css">CSS</label><br>
+                    <input type="radio" id="javascript" name="linguagem" value="javascript">
+                    <label for="javascript">JavaScript</label><br>
+                </div>
+                <div class="bloco-form">
+                    <p style="font-size: 1.5rem; font-weight: bold; padding-left: 0rem;"> Com qual linguagem você está mais familiarizado?</p>
+
+                    <input type="checkbox" id="html" name="linguagem" value="html">
+                    <label for="html">HTML</label><br>
+                    <input type="checkbox" id="css" name="linguagem" value="css">
+                    <label for="css">CSS</label><br>
+                    <input type="checkbox" id="javascript" name="linguagem" value="javascript">
+                    <label for="javascript">JavaScript</label><br>
+                    <input type="submit" onclick="" name="envio" id="envio">
+                </div>
+            </form>
+        </div>
+
+
+
+        <footer>
+            <p>Desenvolvido por Mateus Diniz</p>
+        </footer>
+        
+    </body>
+</html>
